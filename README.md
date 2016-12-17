@@ -3,6 +3,8 @@ Enterprise-Connect Springboot Demo
 
 ##Reference
 - We use [Cloud Foundry Springboot](https://github.com/cloudfoundry-samples/hello-spring-cloud) as the example for your quickiet EC adoption.
+- For internal users, please refer to the internal jFrog virtual repo in your maven settings.xml.
+- For external users, you may compile the [library repo](https://github.build.ge.com/Enterprise-Connect/ec-client-java-lib.git) for your reference. We're in progress of acquiring a public artifactory.
 
 ##Usage
 * Maven dependency.
