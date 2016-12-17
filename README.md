@@ -1,6 +1,9 @@
 # ec-springboot-demo
 Enterprise-Connect Springboot Demo
 
+##Reference
+- We use [Cloud Foundry Springboot](https://github.com/cloudfoundry-samples/hello-spring-cloud) as the example for your quickiet EC adoption.
+
 ##Usage
 * Maven dependency.
 ```xml
