@@ -1,5 +1,7 @@
 package helloworld;
 
+//import com.ge.ec;
+import com.ge.ec.ECClientImpl;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
@@ -11,5 +13,8 @@ import org.springframework.context.annotation.Configuration;
 public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
+        ECClientImpl ec=new ECClientImpl();
+        String ver=ec.Version();
+        //ec.ECClient ec=new ec.ECClient();
     }
 }
