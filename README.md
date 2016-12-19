@@ -7,7 +7,7 @@ Enterprise-Connect Springboot Demo
 - For external users, you may compile the [library repo](https://github.build.ge.com/Enterprise-Connect/ec-client-java-lib.git) for your reference. We're in progress of acquiring a public artifactory.
 
 ##Usage
-1) Add Maven dependency.
+1. Add Maven dependency.
 ```xml
 <dependency>
     <groupId>com.ge.ec</groupId>
@@ -16,17 +16,17 @@ Enterprise-Connect Springboot Demo
 </dependency>
 ```
 
-2) import Library.
+2. import Library.
 ```java
 import com.ge.ec.ECClientImpl;
 ```
 
-3) Copy the EC Client Artifact to the root path of the project jar file.
+3. Copy the EC Client Artifact to the root path of the project jar file.
 ```bash
 cp /path/from/ecclient_<darwin | windows | linux> /path/to/jar/app.jar
 ```
 
-4) create EC Client Instance.
+4. create EC Client Instance.
 ```java
 public static void main(String[] args) throws IOException {
         SpringApplication.run(Application.class, args);
