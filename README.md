@@ -15,17 +15,14 @@ Enterprise-Connect Springboot Demo
     <version>1.0-SNAPSHOT</version>
 </dependency>
 ```
-
 2. import Library.
 ```java
 import com.ge.ec.ECClientImpl;
 ```
-
 3. Copy the EC Client Artifact to the root path of the project jar file.
 ```bash
 cp /path/from/ecclient_<darwin | windows | linux> /path/to/jar/app.jar
 ```
-
 4. create EC Client Instance.
 ```java
 public static void main(String[] args) throws IOException {
