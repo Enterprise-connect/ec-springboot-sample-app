@@ -19,9 +19,10 @@ Enterprise-Connect Springboot Demo
 ```java
 import com.ge.ec.ECClientImpl;
 ```
-- Copy the EC Client Artifact to the root path of the project jar file.
+- Copy the EC Client Artifact/Settings to the root path of the project jar file.
 ```bash
 cp /path/from/ecclient_<darwin | windows | linux> /path/to/jar/app.jar
+cp /path/from/client_settings.json /path/to/
 ```
 - Create the EC Client Instance.
 ```java
