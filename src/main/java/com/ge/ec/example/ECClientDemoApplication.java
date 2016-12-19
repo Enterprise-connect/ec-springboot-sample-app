@@ -19,14 +19,26 @@ public class ECClientDemoApplication {
 @RestController
 class ECClientDemoController {
     
+    private final ECClientImpl ec=new ECClientImpl();
+    
     @RequestMapping("/start")
     String start() throws IOException {
-        ECClientImpl ec=new ECClientImpl();
         String ver=ec.Version();
         Boolean _ref1=ec.Start();
         //Boolean _ref2=ec.Stop();
         //HashMap _hm=ec.getSettings();
         //ec.setSettings(_hm);
-        return "EC Client is at your service.";
+        return "EC Client ("+ver+") is at your service.";
+    }
+    
+    @RequestMapping("/stop")
+    String stop() throws IOException {
+        ECClientImpl ec=new ECClientImpl();
+        String ver=ec.Version();
+        Boolean _ref1=ec.Stop();
+        //Boolean _ref2=ec.Stop();
+        //HashMap _hm=ec.getSettings();
+        //ec.setSettings(_hm);
+        return "EC Client is stop.";
     }
 }
