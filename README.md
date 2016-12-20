@@ -1,5 +1,5 @@
-# ec-springboot-demo
-Enterprise-Connect Springboot Demo
+# ec-springboot-example
+Enterprise-Connect Springboot Example
 
 ##Reference
 - For your quickiest adoption, we derived this spring example from the pivotal [starter templates](https://start.spring.io/).
