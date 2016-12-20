@@ -5,6 +5,7 @@ Enterprise-Connect Springboot Example
 - For your quickiest adoption, we derived this spring example from the pivotal [starter templates](https://start.spring.io/).
 - For internal users, please refer to the internal jFrog virtual repo in your maven settings.xml.
 - For external users, you may compile the [library repo](https://github.build.ge.com/Enterprise-Connect/ec-client-java-lib.git) for your reference. We're in progress of acquiring a public artifactory.
+- Please submit any development question in the issues session of this repo.
 
 ##Usage
 - Add Maven dependency.
